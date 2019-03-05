@@ -1,0 +1,5 @@
+
+Comandos Úteis
+
+Gerar um módulo -> ng g m nome-do-modulo
+Gerar um componente -> ng g c nomedo-componente  
