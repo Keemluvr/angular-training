@@ -1,0 +1,21 @@
+<section>
+
+    <article>
+      <h3>Interpolation / Interpolação</h3>
+      <p>String renderizada com interpolação: {{ url }}</p>
+      <p>Resultado de 1 + 1 é: {{ 1 + 1 }}</p>
+      <p>Resultado de 1 + 1 não é: {{ 1 + 1 + getValor() }}</p>
+      <p>Curso de angular e gosto do curso: {{ cursoAngular && getCurtirCurso() }}</p>
+    </article>
+
+    <!--Property-binding-->
+    <article>
+      <img src="{{ urlImagem }}">
+      <img [src]="urlImagem">
+      <img bind-src="urlImagem">
+      <!--<td attr.colspan=>Sum: $180</td>-->
+    </article>
+
+  
+
+</section>
