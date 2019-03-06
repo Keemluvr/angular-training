@@ -8,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class DataBindingComponent implements OnInit {
   
 
+  //data-binding
   url: string = 'https://loiane.training.com'
   cursoAngular: boolean = true
   urlImagem: string = 'http://lorempixel.com/output/cats-q-g-640-480-6.jpg'
   
+  //event-binding
   valorAtual: string = ''
   valorSalvo: string = ''
   isMouseOver: boolean = false
