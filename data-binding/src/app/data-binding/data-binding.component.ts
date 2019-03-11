@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-data-binding',
   templateUrl: './data-binding.component.html',
-  styleUrls: ['./data-binding.component.scss']
+  styleUrls: ['./data-binding.component.scss'],
+  inputs: ['nomeCurso:nome']
 })
 export class DataBindingComponent implements OnInit {
   
@@ -21,7 +22,9 @@ export class DataBindingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void { }
-    
+
+  nomeDoCurso: string = 'Angular'
+
   getValor() {
     return 1
   }
