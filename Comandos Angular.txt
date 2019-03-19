@@ -4,3 +4,7 @@ Comandos Úteis
 Gerar um projeto -> ng new nome-projeto
 Gerar um módulo -> ng g m nome-do-modulo
 Gerar um componente -> ng g c nome-do-componente  
+
+ng lint -> Escaneia o código e verifica boas práticas e errinhos
+ng teste -> Executa os testes unitários
+ng e2e -> 
